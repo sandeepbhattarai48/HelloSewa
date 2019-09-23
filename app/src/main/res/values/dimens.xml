@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_line">2dp</dimen>
+    <dimen name="radius_small">8dp</dimen>
+    <dimen name="radius_medium">16dp</dimen>
+    <dimen name="radius_large">24dp</dimen>
+    <dimen name="guidline_medium">16dp</dimen>
+    <dimen name="margin_search">24dp</dimen>
+    <dimen name="search_layout_height">30dp</dimen>
+    <dimen name="padding_medium">16dp</dimen>
+</resources>
