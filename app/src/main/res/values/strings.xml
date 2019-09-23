@@ -4,4 +4,11 @@
     <string name="product_price">Product Price</string>
     <string name="search_text">Search</string>
     <string name="product_image_slider">Product Image Slider</string>
+    <string name="shampoo">Shampoo</string>
+    <string name="hair_color">Hair Color</string>
+    <string name="oil">Oil</string>
+    <string name="soap">Soap</string>
+    <string name="device">Device</string>
+    <string name="currency">Rs.</string>
+    <string name="_700">700</string>
 </resources>
