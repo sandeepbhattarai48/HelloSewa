@@ -5,9 +5,10 @@
     android:layout_height="match_parent"
     tools:context=".cartFragment.Cart">
 
-    <TextView
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        tools:listitem="@layout/cart_list_item"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="cart" />
+        android:layout_height="wrap_content"/>
 
 </FrameLayout>

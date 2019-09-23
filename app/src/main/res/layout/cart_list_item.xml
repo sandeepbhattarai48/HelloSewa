@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="@dimen/radius_small"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.AppCompatCheckBox
+        android:id="@+id/cart_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:autoText="false" />
+
+    <ImageView
+        android:id="@+id/cart_product_image"
+        android:padding="@dimen/padding_small"
+        android:src="@drawable/nav_background"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/cart_product_name"
+            android:textSize="@dimen/text_size_medium"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="@string/product_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/cart_product_price"
+            android:layout_marginTop="@dimen/margin_top"
+            android:hint="@string/product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+</LinearLayout>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
+
+</LinearLayout>

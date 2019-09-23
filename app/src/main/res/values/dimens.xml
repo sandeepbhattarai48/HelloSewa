@@ -8,4 +8,8 @@
     <dimen name="margin_search">24dp</dimen>
     <dimen name="search_layout_height">30dp</dimen>
     <dimen name="padding_medium">16dp</dimen>
+    <dimen name="padding_small">7dp</dimen>
+    <dimen name="margin_top">8dp</dimen>
+    <dimen name="text_size_medium">16sp</dimen>
+
 </resources>

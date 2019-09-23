@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">HelloSewa</string>
+    <string name="product_name">Product Name</string>
+    <string name="product_price">Product Price</string>
     <string name="search_text">Search</string>
-    <string name="product_image_slider">Product image slider</string>
+    <string name="product_image_slider">Product Image Slider</string>
 </resources>
