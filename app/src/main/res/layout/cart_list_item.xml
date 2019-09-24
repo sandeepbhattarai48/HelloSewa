@@ -19,6 +19,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <CheckBox
+                android:id="@+id/cart_checkbox"
+                android:layout_width="wrap_content"
+                android:layout_height="70dp"
+                android:layout_gravity="center"
+                android:autoLink="none" />
+
             <ImageView
                 android:id="@+id/cart_product_image"
                 android:layout_width="100dp"
@@ -52,7 +59,8 @@
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:gravity="center">
+                android:gravity="center"
+                android:orientation="vertical">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -69,6 +77,12 @@
                         android:background="@color/white"
                         android:text="-" />
 
+                    <TextView
+                        android:layout_width="30dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:text="1" />
+
                     <Button
                         style="@style/custom_button_quantity"
                         android:layout_width="30dp"
@@ -77,23 +91,9 @@
                         android:background="@color/white"
                         android:text="+" />
 
-                    <TextView
-                        android:layout_width="30dp"
-                        android:layout_height="match_parent"
-                        android:gravity="center"
-                        android:text="1" />
-
 
                 </LinearLayout>
             </LinearLayout>
-
-            <androidx.appcompat.widget.AppCompatCheckBox
-                android:id="@+id/cart_checkbox"
-                android:layout_width="wrap_content"
-                android:layout_height="70dp"
-                android:layout_gravity="center"
-                android:autoLink="none"
-                android:autoText="false" />
 
 
         </LinearLayout>
