@@ -2,9 +2,11 @@
 <resources>
     <color name="colorPrimary">#008577</color>
     <color name="colorPrimaryDark">#00574B</color>
-    <color name="colorAccent">#D81B60</color>
-    <color name="navBg1">#77667EEA</color>
-    <color name="navBg2">#77764BA2</color>
+    <color name="colorAccent">#764BA2</color>
+    <color name="navBg1">#AA667EEA</color>
+    <color name="navBg2">#AA764BA2</color>
+    <color name="purple">#764BA2</color>
+    <color name="blue">#667EEA</color>
     <color name="white">#FFFFFF</color>
     <color name="white_opacity">#CCFFFFFF</color>
     <color name="gray">#707070</color>
