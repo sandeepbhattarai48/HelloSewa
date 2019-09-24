@@ -8,4 +8,12 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="custom_button_quantity" parent="Widget.AppCompat.Button">
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <style name="custom_button_checkout" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/checkout_svg</item>
+    </style>
+
 </resources>
