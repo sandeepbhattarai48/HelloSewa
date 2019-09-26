@@ -34,11 +34,14 @@ public class RetrofitApi {
                 .connectTimeout(10, TimeUnit.SECONDS)
                 .readTimeout(30, TimeUnit.SECONDS).build();
 
+
         Retrofit retrofit = new Retrofit.Builder()
                 .baseUrl(url)
                 .addConverterFactory(GsonConverterFactory.create())
                 .client(client)
                 .build();
+
+
 
         loginService = retrofit.create(LoginService.class);
     }

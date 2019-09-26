@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#008577</color>
-    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorPrimary">#667EEA</color>
+    <color name="colorPrimaryDark">#764BA2</color>
     <color name="colorAccent">#764BA2</color>
     <color name="navBg1">#AA667EEA</color>
     <color name="navBg2">#AA764BA2</color>
@@ -12,4 +12,5 @@
     <color name="gray">#707070</color>
     <color name="bg">#FBF7F7</color>
     <color name="orange">#FF6F69</color>
+    <color name="inputBg">#838FD0</color>
 </resources>
